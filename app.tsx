@@ -1,8 +1,6 @@
 import React, { useState, useEffect, useContext, createContext } from "react";
-import { ResponsiveBar } from "@nivo/bar";
-import { ResponsivePie } from "@nivo/pie";
 import { Table, Layout, Col, Row } from "antd";
-const { Header, Footer, Sider, Content } = Layout;
+const { Content } = Layout;
 import { Column, Pie } from "@ant-design/plots";
 
 // Create a context to hold filter data
